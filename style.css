@@ -1,0 +1,110 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+body{
+  width: 80%;
+  background-color: black;
+  margin: 0 auto;
+}
+
+h1{
+font-size: 30px;
+color: blue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 800;
+margin: 10px;
+padding: 5px;
+text-align: center;
+
+}
+img{
+width: 25%;
+margin: auto;
+border-radius: 50%;
+border: 5px solid yellow;
+display: flex;
+align-items: center;
+}
+
+
+p{
+font-size: 20px;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 800;
+margin: 10px;
+padding: 5px;
+text-align: justify;
+
+}
+
+.parrafo1{
+font-size: 20px;
+color: yellowgreen;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 800;
+margin: 10px;
+padding: 5px;
+text-align: justify;
+
+}
+
+.parrafo2,ol{
+font-size: 20px;
+color: yellowgreen;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 800;
+margin: 10px;
+padding: 5px;
+text-align: justify;
+
+}
+
+.parrafo3{
+font-size: 20px;
+color: greenyellow;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 800;
+margin: 10px;
+padding: 5px;
+text-align: justify;
+
+}
+
+button {
+border: 1;
+background-image: linear-gradient(200deg,
+#9500ff,
+#09f,
+#00DDFF);
+border-radius: 8px;
+color: white;
+display: flex;
+font-size: 25px;
+padding: 4px;
+cursor: pointer;
+transition: 3s;
+
+
+}
+
+button span {
+background-color: #111;
+padding: 16px 24px;
+border-radius: 4px;
+transition: 3s;
+
+}
+
+button :hover span {
+background: none;
+
+}
+
+button :active {
+  transform: scale(0.9);
+  
+}
